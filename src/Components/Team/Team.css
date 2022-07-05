@@ -1,0 +1,111 @@
+.ourTeam {
+    position: absolute;
+    color: #ffffff;
+    width: 400px;
+height: 42px;
+left: 30px;
+top: 500px;
+
+}
+
+.team-1 {
+    position: absolute;
+    width: 352px;
+    height: 249px;
+    left: 24px;
+    top: 5150px;
+    border-radius: 30px;
+    /* transform: rotate(-1.94deg); */
+
+}
+
+.team-2 {
+    position: absolute;
+    width: 312px;
+    height: 200px;
+    left: 734px;
+    top: 5150px;
+    border-radius: 30px;
+}
+
+.team-3 {
+    position: absolute;
+    width: 352px;
+    height: 249px;
+    left: 1120px;
+    top: 5150px;
+    border-radius: 30px;
+}
+.teamWorkTogether {
+    position: absolute;
+    width: 264px;
+    height: 112px;
+    left: 426px;
+    top: 5146px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+    
+    color: #095E82;
+}
+.ellipse-56{
+    position: absolute;
+width: 10px;
+height: 10px;
+left: 515px;
+top: 5285px;
+
+background: #095E82;
+transform: rotate(-90deg);
+border-radius: 30px;
+}
+.criticalThinking {
+    position: absolute;
+width: 481px;
+height: 50px;
+left: 531px;
+top: 5290px;
+
+text-align: left;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 136.9%;
+/* or 25px */
+
+color: #424242;
+
+
+}
+.ellipse-57{
+    position: absolute;
+width: 10px;
+height: 10px;
+left: 651px;
+top: 5365px;
+
+background: #095E82;
+transform: rotate(-90deg);
+border-radius: 30px;
+}
+.ideas {
+    position: absolute;
+width: 481px;
+height: 50px;
+left: 460px;
+top: 5370px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 136.9%;
+/* or 25px */
+
+color: #424242;
+}

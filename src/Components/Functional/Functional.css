@@ -1,0 +1,513 @@
+.functional {
+    position: absolute;
+     width: 1440px;
+    height: 3620px;
+    left: 50px;
+    top: 1827px;
+    /* max-width: 500px;
+    margin: auto; */
+
+    background: #FBFAFF;
+}
+
+.mainFunctionality {
+    position: absolute;
+    width: 536px;
+    height: 42px;
+    left: 150px;
+    top: 50px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+
+    color: #095E82;
+}
+
+.reception {
+    position: absolute;
+    width: 316px;
+    height: 45px;
+    left: 150px;
+    top: 200px;
+    text-align: left;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+
+    color: #095E82;
+}
+
+.reception-p {
+    position: absolute;
+    width: 354px;
+    height: 340px;
+    left: 150px;
+    top: 250px;
+
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 136.9%;
+    /* or 25px */
+
+    color: #424242;
+
+}
+
+.line-18 {
+
+
+    position: absolute;
+    width: 572px;
+    height: 0px;
+    left: 370px;
+    top: 400px;
+
+    border-top: 1px dashed rgba(9, 94, 130, 0.5);
+    transform: rotate(90deg);
+}
+
+.photoReception {
+    position: absolute;
+    width: 505px;
+    height: 490px;
+    left: 728px;
+    top: 100px;
+
+}
+
+.line-21 {
+    position: absolute;
+    width: 1139px;
+    height: 0px;
+    left: 150px;
+    top: 690px;
+
+    border-top: 1px dashed rgba(9, 94, 130, 0.5);
+}
+
+.photoEs {
+    position: absolute;
+    width: 505px;
+    height: 490px;
+    left: 50px;
+    top: 800px;
+
+}
+
+.es {
+    position: absolute;
+    width: 316px;
+    height: 45px;
+    left: 750px;
+    top: 800px;
+    text-align: left;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+
+    color: #095E82;
+}
+
+.es-p {
+    position: absolute;
+    width: 354px;
+    height: 340px;
+    left: 750px;
+    top: 850px;
+
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 136.9%;
+    /* or 25px */
+
+    color: #424242;
+
+}
+
+.line-17 {
+    position: absolute;
+    width: 621px;
+    height: 0px;
+    left: 980px;
+    top: 1000px;
+
+    border-top: 1px dashed rgba(9, 94, 130, 0.5);
+    transform: rotate(90deg);
+}
+
+.ellipse-35 {
+    /* box-sizing: border-box; */
+
+    position: absolute;
+    width: 137px;
+    height: 137px;
+    left: 1151px;
+    top: 690px;
+    border-radius: 0 0 110px 0;
+    border: 2px dashed rgba(13, 113, 155, 0.5);
+    transform: rotate(90deg);
+}
+
+.ellipse-16 {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: 50px;
+    top: 1373px;
+
+    background: #0D719B;
+    transform: rotate(180deg);
+}
+
+.ellipse-15 {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: 256px;
+    top: 1373px;
+
+    background: #0D719B;
+    transform: rotate(180deg);
+}
+
+.ellipse-22 {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: 456px;
+    top: 1373px;
+
+    background: #0D719B;
+    transform: rotate(180deg);
+}
+
+.DoctorsWorkPlace {
+    position: absolute;
+    width: 382px;
+    height: 45px;
+    left: 151px;
+    top: 1400px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+
+    color: #095E82;
+}
+
+.DoctorsWorkPlace-p {
+    position: absolute;
+    width: 400px;
+    height: 342px;
+    left: 151px;
+    top: 1500px;
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 136.9%;
+    /* or 25px */
+
+    color: #424242;
+
+}
+
+.line-20 {
+    position: absolute;
+    width: 270px;
+    height: 0px;
+    left: 550px;
+    top: 1700px;
+
+    border: 1px solid rgba(9, 94, 130, 0.5);
+    transform: rotate(90deg);
+
+}
+
+.photoDoctorWorkPlace {
+    position: absolute;
+    width: 506px;
+    height: 440px;
+    left: 750px;
+    top: 1450px;
+
+}
+
+.line-22 {
+    position: absolute;
+    width: 1139px;
+    height: 00px;
+    left: 150px;
+    top: 2000px;
+
+    border-top: 1px dashed rgba(9, 94, 130, 0.5);
+}
+
+.line-25 {
+    position: absolute;
+    width: 74px;
+    height: 0px;
+    left: 113px;
+    top: 1963px;
+
+    border-top: 1px dashed rgba(9, 94, 130, 0.5);
+    transform: rotate(-90deg);
+}
+
+.еllipse-42 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    left: 149px;
+    top: 1940px;
+    border-radius: 110px 0 0 0;
+    border: 1px dashed rgba(13, 113, 155, 0.5);
+    transform: rotate(90deg);
+
+}
+
+.line-29 {
+    position: absolute;
+    width: 140px;
+    height: 0px;
+    left: 1220px;
+    top: 2069px;
+
+    border-top: 1px dashed rgba(9, 94, 130, 0.5);
+    transform: rotate(-90deg);
+}
+
+.photoCheckup {
+    position: absolute;
+    width: 462px;
+    height: 408px;
+    left: 118px;
+    top: 2100px;
+
+}
+
+.professionalCheck-ups {
+    position: absolute;
+    width: 266px;
+    height: 28px;
+    left: 762px;
+    top: 2100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+
+    color: #095E82;
+}
+
+.professionalCheck-ups-p {
+    position: absolute;
+    width: 500px;
+    height: 342px;
+    left: 776px;
+    top: 2150px;
+
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 136.9%;
+    /* or 25px */
+
+    color: #424242;
+
+}
+
+.line-19 {
+    position: absolute;
+    width: 268px;
+    height: 0px;
+    left: 602px;
+    top: 2287px;
+
+    border-top: 1px solid #095E82;
+    transform: rotate(90deg);
+}
+
+.line-23 {
+    position: absolute;
+    width: 1139px;
+    height: 00px;
+    left: 150px;
+    top: 2550px;
+
+    border-top: 1px dashed rgba(9, 94, 130, 0.5);
+}
+
+ .finance {
+    position: absolute;
+    width: 266px;
+    height: 28px;
+    left: 120px;
+    top: 2600px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+
+    color: #095E82;
+}
+
+.finance-p {
+    position: absolute;
+    width: 500px;
+    height: 342px;
+    left: 120px;
+    top: 2650px;
+
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 136.9%;
+    /* or 25px */
+ 
+    color: #424242;
+
+}
+
+.line-26 {
+    position: absolute;
+    width: 268px;
+    height: 0px;
+    left: 502px;
+    top: 2807px;
+
+    border-top: 1px solid #095E82;
+    transform: rotate(90deg);
+}
+
+.photoFinance {
+    position: absolute;
+    width: 526px;
+    height: 439px;
+    left: 742px;
+    top: 2600px;
+
+    border-radius: 30px;
+}
+
+.line-24 {
+    position: absolute;
+    width: 1139px;
+    height: 0px;
+    left: 159px;
+    top: 3165px;
+
+    border-top: 1px dashed rgba(9, 94, 130, 0.5);
+}
+
+.line-28 {
+    position: absolute;
+    width: 201px;
+    height: 0px;
+    left: 1198px;
+    top: 3266px;
+
+    border-top: 1px dashed rgba(9, 94, 130, 0.5);
+    transform: rotate(-90deg);
+
+}
+
+.ellipse-52 {
+    position: absolute;
+    width: 137px;
+    height: 137px;
+    left: 1157px;
+    top: 3165px;
+    border-radius: 0 0 110px 0;
+    border: 2px dashed rgba(13, 113, 155, 0.5);
+    transform: rotate(90deg);
+} 
+
+.photoMarketing {
+    position: absolute;
+    width: 559px;
+    height: 436px;
+    left: 138px;
+    top: 3257px;
+
+}
+
+.marketing {
+    position: absolute;
+    width: 113px;
+    height: 28px;
+    left: 779px;
+    top: 3233px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+
+    color: #095E82;
+
+}
+
+.marketing-p {
+    position: absolute;
+    width: 481px;
+    height: 186px;
+    left: 778px;
+    top: 3306px;
+
+    text-align: left;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 136.9%;
+    /* or 25px */
+
+    color: #424242;
+}
+
+.line-27 {
+    position: absolute;
+    width: 507px;
+    height: 0px;
+    left: 782px;
+    top: 3752px;
+
+    border-top: 1px solid rgba(9, 94, 130, 0.5);
+} 

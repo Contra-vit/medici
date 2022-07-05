@@ -1,0 +1,73 @@
+
+.ourClients {
+    position: absolute;
+width: 400px;
+height: 42px;
+left: 30px;
+top: 5993px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.02em;
+
+color: #095E82;
+}
+.client-1 {
+    position: absolute;
+    width: 240px;
+height: 133px;
+left: 50px;
+top: 50px;
+}
+.client-2 {
+    position: absolute;
+width: 240px;
+height: 103px;
+left: 450px;
+top: 50px;
+}
+.client-3 {
+    position: absolute;
+width: 240px;
+height: 103px;
+left:800px;
+top: 70px;
+}
+.client-4 {
+    position: absolute;
+width: 120px;
+height: 123px;
+left: 1100px;
+top: 50px;
+}
+.client-5 {
+    position: absolute;
+width: 240px;
+height: 133px;
+left: 50px;
+top: 200px;
+}
+.client-6 {
+    position: absolute;
+width: 240px;
+height: 133px;
+left: 450px;
+top: 200px;
+}
+.client-7 {
+    position: absolute;
+width: 240px;
+height: 133px;
+left: 800px;
+top: 200px;
+}
+.client-8 {
+    position: absolute;
+width: 240px;
+height: 90px;
+left: 1100px;
+top: 220px;
+}

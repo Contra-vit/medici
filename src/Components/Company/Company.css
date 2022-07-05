@@ -1,0 +1,269 @@
+.company1 {
+    /* position: relative;
+
+    max-width: 500px;
+    margin: auto; */
+}
+.rectangle {
+
+    position: relative;
+    margin-left: 150px;
+    margin-top: 60px;
+    width: 1440px;
+    height: 437px;
+    left: -1px;
+    top: 800px;
+
+    background: #FFFFFF;
+}
+
+.company-text {
+    /* position: absolute; */
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 544px;
+    height: 176px;
+    left: 150px;
+    top: 912px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    color: #424242;
+
+}
+
+.company {
+    margin-left: 50px;
+
+    width: 158px;
+    height: 42px;
+    left: 150px;
+    top: 848px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+
+    color: #0D719B;
+
+}
+
+.line-13 {
+    position: absolute;
+    width: 357px;
+    height: 0px;
+    left: 200px;
+    top: 1140px;
+
+    border-top: 1px dashed #8A6993;
+}
+
+.ellipse-23 {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: 200px;
+    top: 1139px;
+
+    background: #8A6993;
+    transform: rotate(180deg);
+
+}
+
+.ellipse-22 {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    left: 555px;
+    top: 1139px;
+
+    background: #8A6993;
+    transform: rotate(-90deg);
+}
+
+.frame-1 {
+     
+    position: absolute;
+    width: 1440px;
+    height: 590px;
+    left: 0px;
+    top: 1237px;
+
+    background: #E9D8FF;
+}
+
+.mainStages {
+    position: absolute;
+    width: 504px;
+    height: 42px;
+    left: 100px;
+    top: 100px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.02em;
+
+    color: #095E82;
+
+}
+
+.rectangle-51 {
+    position: absolute;
+    width: 333.07px;
+    height: 277.23px;
+    left: 151px;
+    top: 199px;
+
+    background: #ffffff;
+    border-radius: 30px;
+
+}
+
+.rectangle-52 {
+    position: absolute;
+    width: 333.07px;
+    height: 277.23px;
+    left: 551px;
+    top: 199px;
+
+    background: #ffffff;
+    border-radius: 30px;
+
+}
+
+.rectangle-53 {
+    position: absolute;
+    width: 333.07px;
+    height: 277.23px;
+    left: 951px;
+    top: 199px;
+
+    background: #ffffff;
+    border-radius: 30px;
+
+}
+
+.rectangle-51-title {
+    margin-left: 20px;
+
+    position: absolute;
+    width: 109.56px;
+    height: 64.08px;
+    left: 2px;
+    top: 50px;
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+
+    color: #0D719B;
+
+}
+
+.rectangle-51-p {
+    margin-left: 20px;
+
+    position: absolute;
+    width: 280px;
+    height: 64.08px;
+    left: 2px;
+    top: 120px;
+    text-align: left;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 22px;
+    color: #424242;
+}
+
+
+.rectangle-52-title {
+    margin-left: 20px;
+
+    position: absolute;
+    width: 209.56px;
+    height: 64.08px;
+    left: 2px;
+    top: 50px;
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+
+    color: #0D719B;
+
+}
+
+.rectangle-52-p {
+    margin-left: 20px;
+
+    position: absolute;
+    width: 280px;
+    height: 64.08px;
+    left: 2px;
+    top: 120px;
+    text-align: left;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 22px;
+    color: #424242;
+}
+
+.rectangle-53-title {
+    margin-left: 20px;
+
+    position: absolute;
+    width: 209.56px;
+    height: 64.08px;
+    left: 2px;
+    top: 50px;
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+
+    color: #0D719B;
+
+}
+
+.rectangle-53-p {
+    margin-left: 20px;
+
+    position: absolute;
+    width: 270px;
+    height: 64.08px;
+    left: 2px;
+    top: 120px;
+    text-align: left;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 22px;
+    color: #424242;
+}

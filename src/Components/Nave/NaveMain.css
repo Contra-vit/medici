@@ -1,0 +1,28 @@
+.Nav {
+    background-color: white;
+    margin: 55px;
+    margin-left: 750px;
+    position: absolute;
+    
+
+}
+
+.nav-world {
+    padding: 10px 30px;
+    /* position: absolute; */
+    width: 75px;
+    height: 19px;
+    left: 816px;
+    top: 52px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.07em;
+
+    color: #045779;
+
+}
