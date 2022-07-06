@@ -1,12 +1,7 @@
 import react from 'react';
 import './Clients.css';
 
-class Clients extends react.Component {
-  constructor(props) {
-    super(props);
-
-  }
-  render(){
+function Clients (){
      return (
       <div className='ourClients'>
       <div>Our clients</div>
@@ -23,6 +18,6 @@ class Clients extends react.Component {
       
   )}
  
-}
+
 
 export default Clients;

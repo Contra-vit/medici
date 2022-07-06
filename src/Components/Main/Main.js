@@ -9,12 +9,7 @@ import Clients from '../Clients/Clients';
 // import { Link, animateScroll as scroll } from "react-scroll";
 // import NavBar from '../src/NavBar/NavBar';
 
-class Main extends react.Component {
-  constructor(props) {
-    super(props);
-
-  }
-  render() {
+function Main () {
     return (
       <div className="main">
         <div className="line-11"></div>
@@ -158,6 +153,6 @@ Binding to the clinical recommendations of the Ministry of Healf on diagnosis.  
       </div>
     )
   }
-}
+
 
 export default Main;

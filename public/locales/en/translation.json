@@ -1,7 +1,57 @@
 {
-  "greeting": "Hello",
-    "text": "Thank you for visiting our website.",
-    "language": "Language"
+   "language": "Language",
+  "header": "Medical digital ecosystem",
+    "getstarted": "Get Started",
+    "company": "Company",
+    "companyContent": "MEDICI is a medical ecosystem of the future, a set of improvements for all participants in the healthcare system that simplifies and increases work efficiency. The MEDICI platform collects, transmits and stores data about patients, doctors and clinics in a single information and secure",
+    "stage": "The main stages of work",
+    "diagnosis": " Clinical diagnosis",
+    "diagnosisContent": " We collect data, determine the state of business processes, identify problem areas and offer solutions.",
+    "buildProc": " Building new business processes",
+    "buildProcContent": " Together with the founder, we create a new model of business processes, train staff, put the project into operation.",
+    "Support": "Support project",
+    "SupportContent": "We help keep the system up to date and adapt to changing business conditions.",
+    "functionality": "The main functionality of EMS ",
+    "reception": "Reception",
+    "receptionContent": "Reducing the waiting time for a doctor's appointment, getting rid of queues in hospitals. Optimizing the workload of doctors, reducing downtime and overloading medical equipment. Reducing the time of obtaining the results of diagnostic studies due to the integration of EMS and LIS. Streamlining the process of moving a patient within a medical organization through the use of electronic queues and referrals. Working with clients through SMS notifications.",
+    "medCard": "Electronic medical card",
+    "medCardContent": "Reducing the time of obtaining the results of diagnostic studies due to the integration of EMS and LIS. Integrity and availability of research results through the introduction of medical images archives. Continuity and effectiveness of treatment through the use of patient information from EHR. Optimizing the process of writing prescriptions and providing patients with medicines. Reduced time of enter, search and reuse information.",
+    "workplace": "Doctor's workplace",
+    "workplaceContent": "Increasing the timeshare of the doctor's work with the patient up to 90% of the appointment by reducing the share of the doctor's work with medical documentation. Refusal of most paper documents (journals, referrals, prescriptions, etc.), promoting their    use in electronic form. An automatic system for monitoring medical decision making with support for working with ICD-10.Binding to the clinical recommendations of the Ministry of Healf on diagnosis.",
+    "checkups": "Professional Check-ups",
+    "checkupsContent1": "Compliance with local orders.",
+    "checkupsContent2": "Workstation of the occupational pathologist and medical commission. ",
+    "checkupsContent3": " Growth of clinics traffic by 80% due to electronic queue.",
+    "checkupsContent4": "Reducing the time spent by the patient in the clinic, without loss of quality.",
+    "finance": "Finance",
+    "financeContent1": "Analysis of the financial performance of the clinic in real-time. ",
+    "financeContent2": "Payroll system.",
+    "financeContent3": "Sales plans.",
+    "financeContent4": "Work with various types of payments and programs.",
+    "financeContent5": "Forecast analysis of the eggectiverness of the clinic.",
+
+    "marketing": "Marketing",
+    "marketingContent1": "Flexible statistics tools.",
+    "marketingContent2": " Analysis of the distribution of customers by direction, age. payments.  <br/> <br/>Automation of business processes of the marketing unit.",
+    "marketingContent3": "Automation of business processes of the marketing unit.",
+    "team": "Team Work Together",
+    "teamContent1": "Critical Thinking",
+    "teamContent2": " and Creative ",
+    "teamContent3": "Ideas and",
+    "teamContent4": "Solutions",
+    "contact": "Contact Us",
+    "contactContent1": "Address: Novosibirsk, st.Molodezhniy, 40 ",
+    "contactContent2": "Phone: +7 (383) 375-58-08",
+    "contactContent3": "Mail: apply@medicisoft.ru"
+
+  
+    
+     
+    
+    
+    
+
   }
+  
 
   

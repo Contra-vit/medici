@@ -11,8 +11,8 @@ function Header() {
           <img src={process.env.PUBLIC_URL + "img/image_36.png"} className='header-logo' />
           <img src={process.env.PUBLIC_URL + "img/image_37.png"} className='header-main-picture' />
           <container className="header-container">
-            <h1 className="header-name">{t('greeting')}</h1>
-            <button className='buttonGetStarted'>Get started </button>
+            <h1 className="header-name">{t('header')}</h1>
+            <button className='buttonGetStarted'>{t('getstarted')} </button>
 
            
             <div className='figure'>

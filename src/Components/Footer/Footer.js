@@ -1,23 +1,20 @@
 import react from 'react';
 import './Footer.css';
+import { useTranslation } from "react-i18next";
 
-class Footer extends react.Component {
-  // constructor(props) {
-  //   super(props);
+function Footer (){
+  const { t } = useTranslation();
 
-  // }
-  render(){
      return (
     <div className="footer">
      {/* <div className="footer-bottom" >Contact Us</div> */}
      <div className="footer-contact">
-     <div className="footer-a">Contact Us</div>
-     <div className="footer-a">Address: Novosibirsk, st.Molodezhniy, 40 <br/> Phone: +7 (383) 375-58-08 <br/>Mail: apply@medicisoft.ru</div>
+     <div className="footer-a">{t('contact')}</div>
+     <div className="footer-a">{t('contactContent1')}<br/>{t('contactContent2')}<br/>{t('contactContent3')}</div>
      </div>
     
     </div>
   )}
  
-}
 
 export default Footer;

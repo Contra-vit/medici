@@ -1,18 +1,13 @@
 import react from 'react';
 import './Contacts.css';
 
-class Contacts extends react.Component {
-  constructor(props) {
-    super(props);
-
-  }
-  render(){
+function Contacts (){
      return (
     <div className="Contacts">
      <div>  Tel: Adress: </div>
     </div>
   )}
  
-}
+
 
 export default Contacts;

@@ -10,7 +10,7 @@ import Nave from './Components/Nave/Nave';
 import NaveMain from './Components/Nave/NaveMain';
 
 import { Container, ThemeProvider } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import Loading from './/Components/Loading';
 import { Helmet } from 'react-helmet';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -19,31 +19,31 @@ import LocaleContext from '../src/Components/Nave/LocaleContext';
 
 function App() {
 
-    const [locale, setLocale] = useState(i18n.language);
+  const [locale, setLocale] = useState(i18n.language);
 
-    i18n.on('languageChanged', (lng) => setLocale(i18n.language));
-    return (
-             <div className='app'>
-      <NaveMain/>
-      <LocaleContext.Provider value={{ locale, setLocale }}>
-        <Suspense fallback={<Loading />}>
-          <Helmet htmlAttributes={{
+  i18n.on('languageChanged', (lng) => setLocale(i18n.language));
+  return (
+    <div className='app'>
+      <NaveMain />
+       <LocaleContext.Provider value={{ locale, setLocale }}>
+       {/* <Suspense fallback={<Loading />}> */}
+          {/* <Helmet htmlAttributes={{
             lang: locale,
             dir: locale === 'en' ? 'ltr' : 'rtl'
-          }} />
-          <ThemeProvider dir={locale === 'en' ? 'ltr' : 'rtl'}>
-             
-              <Nave />
-              <Main />
-              <Footer />
-              <Container/>
-          </ThemeProvider>
-        </Suspense>
-      </LocaleContext.Provider>
-                </div>
+          }} /> */}
+          {/* <ThemeProvider dir={locale === 'en' ? 'ltr' : 'rtl'}> */}
 
-    )
-  }
+            <Nave />
+            <Main />
+            <Footer />
+            <Container />
+          {/* </ThemeProvider>   */}
+          {/* </Suspense> */}
+      // </LocaleContext.Provider>
+    </div>
+
+  )
+}
 
 
 

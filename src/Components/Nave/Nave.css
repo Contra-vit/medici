@@ -6,6 +6,35 @@
     
 
 }
+.EnRuHeader {
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+letter-spacing: 0.07em;
+
+color: #045779;
+
+}
+
+.EnRu {
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+letter-spacing: 0.07em;
+
+color: #045779;
+}
 
 .nav-world {
     padding: 10px 30px;
@@ -26,3 +55,4 @@
     color: #045779;
 
 }
+

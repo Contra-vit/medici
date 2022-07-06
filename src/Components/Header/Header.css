@@ -74,7 +74,7 @@
 }
 
 .dash-1 {
-    position: relative;
+    position: absolute;
     width: 250px;
     height: 0px;
     left: 1041px;
@@ -85,7 +85,7 @@
 }
 
 .dash-2 {
-    position: relative;
+    position: absolute;
     width: 250px;
     height: 0px;
     left: 1041px;
@@ -96,7 +96,7 @@
 }
 
 .line-hor {
-    position: relative;
+    position: absolute;
     width: 250px;
     height: 0px;
     left: 1166px;
@@ -107,7 +107,7 @@
 }
 
 .line-vertic-1 {
-    position: relative;
+    position: absolute;
     width: 250px;
     height: 0px;
     left: 1291px;
@@ -118,7 +118,7 @@
 }
 
 .line-vertic-2 {
-    position: relative;
+    position: absolute;
     width: 250px;
     height: 0px;
     left: 1291px;
@@ -135,7 +135,7 @@
     width: 186px;
     height: 92.5px;
     left: 1335px;
-    top: 210px;
+    top: 130px;
     border: 1px solid #0D719B;
 
     width: 5em;
@@ -148,7 +148,7 @@
     width: 186px;
     height: 92.5px;
     left: 1335px;
-    top: 470px;
+    top: 380px;
     border: 1px solid #0D719B;
 
     width: 5em;

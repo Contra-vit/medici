@@ -117,13 +117,13 @@ function Nave() {
 
 
       <Navbar bg="light" expand="lg">
-        <Container>
+        <Container className='LangContainer'>
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className={locale === 'en' ? 'ms-auto' : 'me-auto'}>
-              <NavDropdown title={t('language')} id="basic-nav-dropdown">
-                <NavDropdown.Item href="#" onClick={() => changeLocale('en')}>English</NavDropdown.Item>
-                <NavDropdown.Item href="#" onClick={() => changeLocale('ar')}>العربية</NavDropdown.Item>
+              <NavDropdown title={t('language')} id="basic-nav-dropdown"  className='EnRuHeader' >
+                <NavDropdown.Item  className='EnRu' href="#" onClick={() => changeLocale('en')}>En</NavDropdown.Item>
+                <NavDropdown.Item  className='EnRu' href="#" onClick={() => changeLocale('ru')}>Ru</NavDropdown.Item>
               </NavDropdown>
             </Nav>
           </Navbar.Collapse>

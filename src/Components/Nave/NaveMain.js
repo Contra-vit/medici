@@ -1,11 +1,15 @@
 import react from 'react';
 import './NaveMain.css';
 import { Link, animateScroll as scroll } from "react-scroll";
-import { useTranslation } from "react-i18next";
+import React from 'react';
 
 
-function NaveMain() {
+class NaveMain extends React.Component {
+  constructor(props) {
+    super(props);
+      }
     
+    render () {
     return (
       <div className="Nav">
         <ul>
@@ -97,13 +101,12 @@ function NaveMain() {
             >
               Contacts</Link>
           </a>
-          
-
         </ul>
-
       </div>
     )
   }
+}
+
 
 
 
