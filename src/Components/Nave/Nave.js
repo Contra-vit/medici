@@ -20,111 +20,18 @@ function Nave() {
     }
   }
   return (
-    // <div className="Nav">
-    //   <ul>
-    //     <a className="nav-world">
-    //       <Link activeClass="active"
-    //         to="company"
-    //         spy={true}
-    //         smooth={true}
-    //         hashSpy={true}
-    //         offset={10}
-    //         duration={300}
-    //         delay={500}
-    //         isDynamic={true}
-    //         onSetActive={this.handleSetActive}
-    //         onSetInactive={this.handleSetInactive}
-    //         ignoreCancelEvents={false}
-    //         spyThrottle={500}
-    //       >
-    //         Company</Link>
-    //     </a>
-
-    //     <a className="nav-world">
-    //       <Link activeClass="active"
-    //         to="functional"
-    //         spy={true}
-    //         smooth={true}
-    //         hashSpy={true}
-    //         offset={50}
-    //         duration={500}
-    //         delay={500}
-    //         isDynamic={true}
-    //         onSetActive={this.handleSetActive}
-    //         onSetInactive={this.handleSetInactive}
-    //         ignoreCancelEvents={false}
-    //         spyThrottle={500}
-    //       >
-    //         Functional</Link>
-    //     </a>
-    //     <a className="nav-world">
-    //       <Link activeClass="active"
-    //         to="teamWorkTogether"
-    //         spy={true}
-    //         smooth={true}
-    //         hashSpy={true}
-    //         offset={5}
-    //         duration={500}
-    //         delay={500}
-    //         isDynamic={true}
-    //         onSetActive={this.handleSetActive}
-    //         onSetInactive={this.handleSetInactive}
-    //         ignoreCancelEvents={false}
-    //         spyThrottle={500}
-    //       >
-    //         Team</Link>
-    //     </a>
-    //     <a className="nav-world">
-    //       <Link activeClass="active"
-    //         to="ourClients"
-    //         spy={true}
-    //         smooth={true}
-    //         hashSpy={true}
-    //         offset={5}
-    //         duration={500}
-    //         delay={500}
-    //         isDynamic={true}
-    //         onSetActive={this.handleSetActive}
-    //         onSetInactive={this.handleSetInactive}
-    //         ignoreCancelEvents={false}
-    //         spyThrottle={500}
-    //       >
-    //         Clients</Link>
-    //     </a>
-
-
-    //     <a className="nav-world">
-    //       <Link activeClass="active"
-    //         to="footer"
-    //         spy={true}
-    //         smooth={true}
-    //         hashSpy={true}
-    //         offset={50}
-    //         duration={500}
-    //         delay={500}
-    //         isDynamic={true}
-    //         onSetActive={this.handleSetActive}
-    //         onSetInactive={this.handleSetInactive}
-    //         ignoreCancelEvents={false}
-    //         spyThrottle={500}
-    //       >
-    //         Contacts</Link>
-    //     </a>
-
-
-    //   </ul>
-    // </div>
-
-
       <Navbar bg="light" expand="lg">
         <Container className='LangContainer'>
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className={locale === 'en' ? 'ms-auto' : 'me-auto'}>
-              <NavDropdown title={t('language')} id="basic-nav-dropdown"  className='EnRuHeader' >
-                <NavDropdown.Item  className='EnRu' href="#" onClick={() => changeLocale('en')}>En</NavDropdown.Item>
-                <NavDropdown.Item  className='EnRu' href="#" onClick={() => changeLocale('ru')}>Ru</NavDropdown.Item>
-              </NavDropdown>
+              {/* <NavDropdown title={t('language')} id="basic-nav-dropdown"  className='EnRuHeader' > */}
+                {/* <NavDropdown.Item  className='EnRu' href="#" onClick={() => changeLocale('en')}>En</NavDropdown.Item>
+                <NavDropdown.Item  className='EnRu' href="#" onClick={() => changeLocale('ru')}>Ru</NavDropdown.Item> */}
+              {/* </NavDropdown> */}
+              <div> </div>
+              <div className='En' href="#" onClick={() => changeLocale('en')}>En/</div >
+              <div className='Ru' href="#" onClick={() => changeLocale('ru')}>Ru</div>
             </Nav>
           </Navbar.Collapse>
         </Container>

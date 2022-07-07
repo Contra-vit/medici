@@ -3,37 +3,55 @@
     margin: 55px;
     margin-left: 750px;
     position: absolute;
-    
+
 
 }
+
 .EnRuHeader {
 
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-letter-spacing: 0.07em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.07em;
 
-color: #045779;
+    color: #045779;
 
 }
 
-.EnRu {
+.En {
+    position: relative;
 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.07em;
+    top: 73px;
+    left: 1403px;
 
+    color: #045779;
+}
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
-letter-spacing: 0.07em;
+.Ru {
+    position: absolute;
 
-color: #045779;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    letter-spacing: 0.07em;
+    top: 73px;
+    left: 1433px;
+
+    color: #045779;
 }
 
 .nav-world {
@@ -55,4 +73,3 @@ color: #045779;
     color: #045779;
 
 }
-

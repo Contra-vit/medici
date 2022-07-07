@@ -10,10 +10,9 @@ import Nave from './Components/Nave/Nave';
 import NaveMain from './Components/Nave/NaveMain';
 
 import { Container, ThemeProvider } from 'react-bootstrap';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 import Loading from './/Components/Loading';
 import { Helmet } from 'react-helmet';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import i18n from '../src/Components/Nave/i18n';
 import LocaleContext from '../src/Components/Nave/LocaleContext';
 
