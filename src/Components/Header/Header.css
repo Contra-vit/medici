@@ -93,7 +93,7 @@
     text-align: center;
     /* margin: auto; Отступы вокруг элемента */
     padding: 10px;
-    color: rgb(86, 80, 80);
+    color: rgb(255, 255, 255);
     line-height: 56px;
     top: 50%;
     left: 50%;
@@ -102,7 +102,7 @@
     bottom: auto;
     /* marginRight: -50%; */
     /* transform: translate(-50%, -50%); */
-    background:#d6cece;
+    background:#a8a7a7;
     
 }
 

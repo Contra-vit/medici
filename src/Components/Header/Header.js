@@ -9,22 +9,6 @@ import Modal from 'react-modal';
 
 import React, { Suspense, useState } from 'react';
 
-// const customStyles = {
-//   content: {
-//     font-family: 'Roboto',
-//     font-style: 'normal',
-//     font-weight: '700',
-//     font-size: '48px',
-//     line-height: '56px',
-//     top: '50%',
-//     left: '50%',
-//     right: 'auto',
-//     bottom: 'auto',
-//     marginRight: '-50%',
-//     transform: 'translate(-50%, -50%)',
-//     background:'#FFFFFF'
-//   },
-// };
 
 Modal.setAppElement('#root');
 
@@ -106,7 +90,6 @@ function Header() {
         // style={customStyles}
         contentLabel="Example Modal"
       >
-        <h1 >Leave your contacts and we will contact you shortly</h1>
 
               <ContactForm />
 

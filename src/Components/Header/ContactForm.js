@@ -8,13 +8,13 @@ const ContactForm = () => {
   const handleSubmit = () => {
     setTimeout(() => {
       setSubmitted(true);
-    }, 100);
+    }, 30);
   };
 
   if (submitted) {
     return (
       <>
-        <div className="text-2xl">Thank you all!</div>
+        <div className="text-2xl">Thank you!</div>
         <div className="text-md">We'll be in touch soon.</div>
       </>
     );
@@ -26,7 +26,7 @@ const ContactForm = () => {
       onSubmit={handleSubmit}
       method="POST"
       target="_blank"
-    >
+    > Leave your contacts and we will contact you shortly
       <div className="mb-3 pt-0">
         <input
           type="text"
