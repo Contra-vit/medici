@@ -67,6 +67,44 @@
     color: #FFFFFF;
 
 }
+.buttonModal {
+    width: 106px;
+    height: 31px;
+    background: #0D719B;
+    border-radius: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    text-align: center;
+
+}
+
+.modalStyle{
+    position: relative;
+    width: 350px;
+    height: 420px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    /* margin: auto; Отступы вокруг элемента */
+    padding: 10px;
+    color: rgb(86, 80, 80);
+    line-height: 56px;
+    top: 50%;
+    left: 50%;
+
+    right: auto;
+    bottom: auto;
+    /* marginRight: -50%; */
+    /* transform: translate(-50%, -50%); */
+    background:#d6cece;
+    
+}
 
 .figure {
   

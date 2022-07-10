@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import './ContactForm.css';
+
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/309e6690-ffba-11ec-bc36-e1ea9ccadd33";
 
 const ContactForm = () => {
@@ -12,7 +14,7 @@ const ContactForm = () => {
   if (submitted) {
     return (
       <>
-        <div className="text-2xl">Thank you!</div>
+        <div className="text-2xl">Thank you all!</div>
         <div className="text-md">We'll be in touch soon.</div>
       </>
     );
@@ -53,7 +55,8 @@ const ContactForm = () => {
       </div>
       <div className="mb-3 pt-0">
         <button
-          className="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+        className="buttonSendMassage"
+          // className="bg-blue-500 text-white active:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150  "
           type="submit"
         >
           Send a message
