@@ -25,11 +25,6 @@ function Nave() {
 
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className={locale === 'en' ? 'ms-auto' : 'me-auto'}>
-              {/* <NavDropdown title={t('language')} id="basic-nav-dropdown"  className='EnRuHeader' > */}
-                {/* <NavDropdown.Item  className='EnRu' href="#" onClick={() => changeLocale('en')}>En</NavDropdown.Item>
-                <NavDropdown.Item  className='EnRu' href="#" onClick={() => changeLocale('ru')}>Ru</NavDropdown.Item> */}
-              {/* </NavDropdown> */}
-              <div> </div>
               <div className='En' href="#" onClick={() => changeLocale('en')}>En/</div >
               <div className='Ru' href="#" onClick={() => changeLocale('ru')}>Ru</div>
             </Nav>
