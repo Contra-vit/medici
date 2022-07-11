@@ -26,7 +26,7 @@ function Nave() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className={locale === 'en' ? 'ms-auto' : 'me-auto'}>
               <div className='En' href="#" onClick={() => changeLocale('en')}>En/</div >
-              <div className='Ru' href="#" onClick={() => changeLocale('ru')}>Ru</div>
+              <div className='Fr' href="#" onClick={() => changeLocale('fr')}>Fr</div>
             </Nav>
           </Navbar.Collapse>
         </Container>
